@@ -1,0 +1,39 @@
+.title {
+  color: #4c054e;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50px;
+  height: 2px;
+  border: 1px solid #4c054e;
+}
+.text-div {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-div {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.para-div {
+    opacity: 0.6;
+    line-height: 1.7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+.title-div {
+  font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+
+

@@ -1,0 +1,28 @@
+.topnav {
+    background-color: #98439b;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.box {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4C054E;
+    padding: 20px;
+}
+.thecols {
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 991px) {
+    .topnav {
+        display: none;
+    }
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }

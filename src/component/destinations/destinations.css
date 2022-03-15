@@ -1,0 +1,21 @@
+.dest-header {
+    font-size: 1.75rem;
+    font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+.dest-para {
+    color: #4c054e;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.lines {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 2px;
+    border: 1px solid #4c054e;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,0 +1,6 @@
+.li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #4C054E;
+}
