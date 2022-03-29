@@ -17,10 +17,18 @@ const Nav = () => {
           <Link to="/" className="links">
         <NavElement className="nav-item" text="Home"/>
         </Link>
+        <Link to="/about" className="links">
         <NavElement className="nav-item" text="About Us"/>
+        </Link>
+        <Link to="/services" className="links">
         <NavElement className="nav-item" text="Services"/>
+        </Link>
+        <Link to="blog" className="links">
         <NavElement className="nav-item" text="Blog"/>
+        </Link>
+        <Link to="/contact" className="links">
         <NavElement className="nav-item" text="Contact Us"/>
+        </Link>
         </div>
     </div>
   </div>

@@ -1,12 +1,21 @@
 .bg {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: url(../../assets/images/city.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: #d472ad;
+    background-color: #ddc0d1;
     background-attachment: fixed;
-    opacity: 0.6;
     background-position: center center;
-    text-align: center; 
+    text-align: center;
+    color: #4c054e;
+}
+.bg-title {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
 }

@@ -8,6 +8,7 @@ import Hero from '../component/hero/Hero';
 import Testimonial from '../component/testimonials/Testimonial';
 
 
+
 const home = () => {
   return (
     <div>
