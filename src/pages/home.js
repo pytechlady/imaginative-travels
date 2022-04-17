@@ -15,7 +15,7 @@ const home = () => {
       <Hero />
       <About />
       <Achievement />
-      <Bg />
+      <Bg homeonly="Escape" span=" into amazing experiences"/>
       <Destinations />
       <Testimonial />
       <Bg2 />

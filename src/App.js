@@ -7,6 +7,10 @@ import Home from './pages/home'
 import Footer from './component/footer/Footer';
 import Services from './pages/services';
 import About from './pages/about';
+import Blog from './pages/blog';
+import Contact from './pages/contact';
+
+
 
 function App() {
   return (
@@ -17,6 +21,8 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
       <Footer />
       

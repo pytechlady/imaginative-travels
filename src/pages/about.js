@@ -7,7 +7,7 @@ import TeamInfo from '../component/teams/teamInfo'
 const about = () => {
   return (
     <div>
-        <Bg title="About Us" paragraph="We are enthusiastic travel consultant that prioritize our client's request."/>
+        <Bg title="About Us" paragraph="We are enthusiastic travel consultant that prioritize our client's request..."/>
         <About />
         <TeamInfo />
         <Bg2 />

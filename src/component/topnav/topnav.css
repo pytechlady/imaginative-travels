@@ -13,7 +13,7 @@
 }
 .thecols {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 @media screen and (max-width: 991px) {
     .topnav {
@@ -25,4 +25,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+  }
+  .therow {
+      display: flex;
+      justify-content: space-between;
   }

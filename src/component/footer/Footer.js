@@ -5,13 +5,14 @@ import GooglePlay from '../../assets/images/googleplay.png';
 import AppleStore from '../../assets/images/applestore.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="pt-5">
     <div className="container p-3">
-  <div className="row">
-    <div className="col-sm-12 col-md-6 col-lg-3 p-3">
+  <div className="row ft-container">
+    <div className="col-sm-12 col-md-6 col-lg-3 footerlogo">
         <img src={Logo} alt="..." />
         <p className="footer-p">We make your travel experience seamless and memorable</p>
     </div>
@@ -20,11 +21,21 @@ const Footer = () => {
           <span>our company</span>
         </h2>
         <ul className="list-unstyled">
+          <Link to='/' className="links">
           <li className="list">Home</li>
+          </Link>
+          <Link to='/about' className="links">
           <li className="list">About Us</li>
+          </Link>
+          <Link to='/services' className="links">
           <li className="list">Services</li>
+          </Link>
+          <Link to='/blog' className="links">
           <li className="list">Blog</li>
+          </Link>
+          <Link to='/contact' className="links" >
           <li className="list">Contact Us</li>
+          </Link>
         </ul>
     </div>
     <div className="col-sm-12 col-md-6 col-lg-3">

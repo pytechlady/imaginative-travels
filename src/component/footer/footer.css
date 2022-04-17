@@ -1,3 +1,14 @@
+footer {
+  background-color: #e2c8e4;
+}
+.ft-container {
+  margin-left: 100px;
+}
+@media screen and (max-width: 769px) {
+  .ft-container {
+    margin-left: auto;
+  }
+}
 .footer-title {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -11,7 +22,6 @@
 .list-unstyled {
   padding-left: 0;
   line-height: 2.2;
-  color: #4c054e;
   margin-bottom: 25px;
 }
 .fb,
@@ -36,9 +46,11 @@
 }
 .list {
   margin-top: 10px;
+  color: #4c054e;
 }
 .footer-p {
   opacity: 0.6;
+  padding: 0px 10px 0px 10px;
 }
 footer {
   position: relative;
@@ -70,4 +82,8 @@ footer {
   font-size: 16px;
   font-family: 'Oswald', sans-serif;
   color: #4c054e;
+}
+.footerlogo {
+  margin-top: auto;
+  margin-bottom: auto;
 }

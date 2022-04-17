@@ -6,9 +6,9 @@ import './topnav.css';
 const Topnav = () => {
   return (
       <div className="topnav" >
-    <div className="container p-5">
-  <div className="row">
-    <div className="col thecols">
+    <div className="p-5">
+  <div className="therow">
+    <div className="thecols">
         <div className="box">
             <FontAwesomeIcon className="centered" icon={faLocationArrow} />
         </div>
@@ -17,7 +17,7 @@ const Topnav = () => {
             <p>Victoria Island, LA</p>
         </div>
     </div>
-    <div className="col thecols">
+    <div className="thecols">
       <div className="box">
           <FontAwesomeIcon className="centered" icon={faPhone} />
       </div>
@@ -26,7 +26,7 @@ const Topnav = () => {
             <p>24/7 Support line</p>
         </div>
     </div>
-    <div className="col thecols">
+    <div className="thecols">
       <div className="box">
           <FontAwesomeIcon className="centered" icon={faEnvelope} />
       </div>
