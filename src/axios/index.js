@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 const axios = Axios.create({
-  baseURL: "https://imaginativetourism.herokuapp.com/",
+  baseURL: "https://imaginative-travels.onrender.com/",
   headers: {
     Accept: "application/json",
   },
