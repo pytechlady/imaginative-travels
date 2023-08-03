@@ -10,7 +10,7 @@ const AchievementData = [
       id: 2,
       title: "Hotel Booking",
       description:
-        "We maintain partnership with major cruise line operators. We organize a memorable cruise itinerary for you.",
+        "We maintain partnership with hotel and accomodation operators. We organize airpot pick-ups and drop-offs, with breakfast, half-board and full-board options.",
       cover_img: "https://res.cloudinary.com/pytech/image/upload/v1646868833/imaginative-travels/hotelroom_qfcsj0.jpg",
     },
     {

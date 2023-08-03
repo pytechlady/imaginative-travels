@@ -1,3 +1,21 @@
 .card-heading {
     font-family: 'Oswald', sans-serif;
 }
+.blog-header-image {
+    max-width: 100%; /* Ensures the image does not exceed its parent's width */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+}
+.blog-header-image img {
+    max-height: 400px; /* Adjust this value as needed */
+    width: 100%; /* Ensures the image maintains its aspect ratio and does not stretch */
+}
+.side_images {
+    max-height : 350px; /* Ensures the image does not exceed its parent's width */
+}
+
+@media screen and (max-width: 768px) {
+    .content-div {
+        order: -1 !important;
+    }
+}
+    

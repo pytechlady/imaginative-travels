@@ -9,6 +9,7 @@ import Services from './pages/services';
 import About from './pages/about';
 import Blog from './pages/blog';
 import Contact from './pages/contact';
+import Post from './pages/post';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/blog/:blogId" element={<Post />}></Route>
       </Routes>
       <Footer />
       
