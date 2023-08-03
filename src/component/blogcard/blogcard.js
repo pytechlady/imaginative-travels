@@ -11,7 +11,7 @@ const Blogcard = () => {
   const dispatch = useAppDispatch();
   const info = useAppSelector((store) => store.blogs);
   const { blog } = info;
-  const itemsPerPage = 3;
+  const itemsPerPage = 9;
   const pageCount = Math.ceil(blog.count / itemsPerPage);
   useEffect(() => {
     dispatch(blogs(page));
