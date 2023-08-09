@@ -1,10 +1,10 @@
 import React from 'react'
 
-const TextArea = ({examplefor, formLabel, label, formControl, inputId, row}) => {
+const TextArea = ({examplefor, formLabel, label, formControl, inputId, row, value, onChange}) => {
   return (
-    <div class="mb-3">
-  <label for={examplefor} class={formLabel}>{label}</label>
-  <textarea class={formControl} id={inputId} rows={row}></textarea>
+    <div className="mb-3">
+  <label htmlFor={examplefor} className={formLabel}>{label}</label>
+  <textarea className={formControl} id={inputId} rows={row} value={value} onChange={onChange}></textarea>
 </div>
   )
 }

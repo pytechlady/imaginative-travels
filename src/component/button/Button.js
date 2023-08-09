@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({text, width, backgroundColor, color, border}) => {
+const Button = ({text, width, backgroundColor, color, border, type}) => {
     const style = {
         width: width ? width : "100%",
         backgroundColor: backgroundColor ? backgroundColor : "blue",
@@ -9,7 +9,7 @@ const Button = ({text, width, backgroundColor, color, border}) => {
     }
   return (
     <div>
-        <button style={style} type="button" className="btn btn-primary btn-lg">{text ? text : "button"}</button>
+        <button style={style} type={type ? type : "submit"} className="btn btn-primary btn-lg">{text ? text : "button"}</button>
     </div>
   )
 }
